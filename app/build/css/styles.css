@@ -1,8 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-.wrapper {
+.wrap {
   max-width: 1440px;
   margin: 0 auto;
   width: 100%; }
+
+.header-lg {
+  background: #F5F5F5; }
+  .header-lg__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header-lg__info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header-lg__offer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header-lg__icon-geo {
+    margin-right: 16px;
+    width: 11px;
+    height: 15px; }
+  .header-lg__icon-letter {
+    margin-right: 8px;
+    width: 9px;
+    height: 8px;
+    padding-bottom: 10px; }
+  .header-lg__street {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #3B3B3B;
+    padding-right: 10px;
+    border-right: 3px solid #D9D6D6; }
+  .header-lg__about-company {
+    margin-left: 26px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3B3B3B; }
+  .header-lg__transfer {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3B3B3B;
+    margin-left: 49px; }
+  .header-lg__social-media {
+    margin-right: 129px; }
+  .header-lg__mail {
+    font-size: 14px;
+    line-height: 16px;
+    color: #064F7A; }
 
 body, html {
   margin: 0;
@@ -17,3 +76,6 @@ img {
 
 input, button {
   outline: none; }
+
+a {
+  text-decoration: none; }
