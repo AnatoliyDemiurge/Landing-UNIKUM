@@ -70,6 +70,26 @@
     line-height: 16px;
     color: #3B3B3B; }
 
+.header__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.header__list {
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+
+.header__item {
+  margin-left: 70px; }
+  .header__item:first-child {
+    margin-left: 0px; }
+  .header__item:last-child {
+    margin-left: 90px; }
+
 body, html {
   margin: 0;
   padding: 0;
