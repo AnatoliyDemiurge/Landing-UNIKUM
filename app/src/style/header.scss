@@ -17,4 +17,36 @@
             margin-left:90px;
         }
     }
+    &__actions{
+        display:flex;
+        align-items: center;
+    }
+    &__link-icon{
+       display:block;
+       text-align: center;
+    }
+    &__profile{
+        margin-right:24px;
+    }
+    &__icon-profile{
+        width:25px;
+        height:25px;
+    }
+    &__link-profile{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+    }
+    &__icon-truck{
+        width:27px;
+        height:27px;
+    }
+    &__link-truck{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+    }
+
 }

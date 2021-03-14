@@ -90,6 +90,45 @@
   .header__item:last-child {
     margin-left: 90px; }
 
+.header__actions {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__link-icon {
+  display: block;
+  text-align: center; }
+
+.header__profile {
+  margin-right: 24px; }
+
+.header__icon-profile {
+  width: 25px;
+  height: 25px; }
+
+.header__link-profile {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; }
+
+.header__icon-truck {
+  width: 27px;
+  height: 27px; }
+
+.header__link-truck {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; }
+
+.number-big {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3B3B3B; }
+
 body, html {
   margin: 0;
   padding: 0;
