@@ -24,37 +24,19 @@
     -ms-flex-align: center;
     align-items: center; }
   .header-lg__icon-geo {
-    margin-right: 16px;
-    width: 11px;
-    height: 15px; }
+    margin-right: 16px; }
   .header-lg__icon-letter {
     margin-right: 8px;
     width: 9px;
     height: 8px;
     padding-bottom: 10px; }
-  .header-lg__street {
-    padding-top: 13px;
-    padding-bottom: 13px;
-    font-size: 14px;
-    line-height: 16px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #3B3B3B;
+  .header-lg__link-street {
+    padding: 13px 0px;
     padding-right: 10px;
     border-right: 3px solid #D9D6D6; }
   .header-lg__about-company {
-    margin-left: 26px;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #3B3B3B; }
+    margin-left: 26px; }
   .header-lg__transfer {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #3B3B3B;
     margin-left: 49px; }
   .header-lg__social-media {
     margin-right: 129px; }
@@ -62,6 +44,31 @@
     font-size: 14px;
     line-height: 16px;
     color: #064F7A; }
+
+.header-data__about-company {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3B3B3B; }
+
+.header-data__transfer {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3B3B3B; }
+
+.geo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+  .geo__icon {
+    width: 11px;
+    height: 15px; }
+  .geo__link-street {
+    font-size: 14px;
+    line-height: 16px;
+    color: #3B3B3B; }
 
 body, html {
   margin: 0;

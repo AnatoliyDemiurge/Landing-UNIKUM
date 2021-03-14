@@ -1,0 +1,13 @@
+.geo{
+    display:flex;
+    align-items: center;
+    &__icon{
+        width:11px;
+        height:15px;
+    }
+    &__link-street{
+        font-size: 14px;
+        line-height: 16px;
+        color: #3B3B3B;
+    }
+}
