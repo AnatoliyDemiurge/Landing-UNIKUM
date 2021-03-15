@@ -7,7 +7,7 @@
         grid-template-rows:repeat(2,1fr);
     }
     &__card{
-        height:599px;
+        height:640px;
         max-width:100%;
         background-size:cover;
     }
@@ -29,17 +29,41 @@
     &__card-6{
         background:url('../img/production-6.jpg');
     }
+    &__content-1p{
+        padding-top:575px;
+    }
+    &__content-2p{
+        padding-top:530px;
+    }
+    &__content-3p{
+        padding-top:485px;
+    }
     &__name{
         text-align: center;
     }
-    &__name-blue{
+    &__link-blue{
+     
+        padding-top:1%;
+        padding-bottom:1%;
+        padding-left:9%;
+        padding-right:9%;
         font-weight: bold;
         font-size: 24px;
         line-height: 28px;
         color: #FFFFFF;
         background: #064F7A;
     }
-    &__name-white{
-        
+    &__link-white{
+        padding-top:1%;
+        padding-bottom:1%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-left:26px;
+        padding-right:26px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        background: #FFFFFF;
+        color: #064F7A;
     }
 }

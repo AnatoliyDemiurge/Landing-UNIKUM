@@ -214,7 +214,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr); }
   .production__card {
-    height: 599px;
+    height: 640px;
     max-width: 100%;
     background-size: cover; }
   .production__card-1 {
@@ -229,14 +229,36 @@
     background: url("../img/production-5.jpg"); }
   .production__card-6 {
     background: url("../img/production-6.jpg"); }
+  .production__content-1p {
+    padding-top: 575px; }
+  .production__content-2p {
+    padding-top: 530px; }
+  .production__content-3p {
+    padding-top: 485px; }
   .production__name {
     text-align: center; }
-  .production__name-blue {
+  .production__link-blue {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 9%;
+    padding-right: 9%;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
     background: #064F7A; }
+  .production__link-white {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 26px;
+    padding-right: 26px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    background: #FFFFFF;
+    color: #064F7A; }
 
 body, html {
   margin: 0px;
