@@ -1,0 +1,22 @@
+.nav{
+    &__list{
+        list-style:none;
+    }
+    &__link{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #3B3B3B;
+    }
+    &__item{
+        &:last-child{
+            .nav__link{
+                background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #0B2349;
+            }
+        }
+    }
+}
