@@ -1,0 +1,45 @@
+.production{
+    padding-bottom:43px;
+    font-family: 'Ubuntu', sans-serif;
+    &__cards{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:repeat(2,1fr);
+    }
+    &__card{
+        height:599px;
+        max-width:100%;
+        background-size:cover;
+    }
+    &__card-1{
+        background:url('../img/production-1.jpg');
+    }
+    &__card-2{
+        background:url('../img/production-2.jpg');
+    }
+    &__card-3{
+        background:url('../img/production-3.jpg');
+    }
+    &__card-4{
+        background:url('../img/production-4.jpg');
+    }
+    &__card-5{
+        background:url('../img/production-5.jpg');
+    }
+    &__card-6{
+        background:url('../img/production-6.jpg');
+    }
+    &__name{
+        text-align: center;
+    }
+    &__name-blue{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background: #064F7A;
+    }
+    &__name-white{
+        
+    }
+}

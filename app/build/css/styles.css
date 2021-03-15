@@ -86,6 +86,7 @@
   align-items: center; }
 
 .header__item {
+  cursor: pointer;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -165,21 +166,21 @@
   line-height: 23px;
   color: #3B3B3B; }
 
-.nav__list {
-  list-style: none; }
-
-.nav__link {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #3B3B3B; }
-
-.nav__item:last-child .nav__link {
-  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #0B2349; }
+.nav {
+  font-family: 'Ubuntu', sans-serif; }
+  .nav__list {
+    list-style: none; }
+  .nav__link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #3B3B3B; }
+  .nav__item:last-child .nav__link {
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349; }
 
 .slider-big {
   padding-bottom: 36px; }
@@ -198,6 +199,44 @@
     height: 12px;
     background: #E6E6E6;
     border-radius: 5px; }
+
+.title {
+  font-size: 36px;
+  line-height: 41px;
+  color: #4D4D4D;
+  font-weight: 500; }
+
+.production {
+  padding-bottom: 43px;
+  font-family: 'Ubuntu', sans-serif; }
+  .production__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+  .production__card {
+    height: 599px;
+    max-width: 100%;
+    background-size: cover; }
+  .production__card-1 {
+    background: url("../img/production-1.jpg"); }
+  .production__card-2 {
+    background: url("../img/production-2.jpg"); }
+  .production__card-3 {
+    background: url("../img/production-3.jpg"); }
+  .production__card-4 {
+    background: url("../img/production-4.jpg"); }
+  .production__card-5 {
+    background: url("../img/production-5.jpg"); }
+  .production__card-6 {
+    background: url("../img/production-6.jpg"); }
+  .production__name {
+    text-align: center; }
+  .production__name-blue {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #064F7A; }
 
 body, html {
   margin: 0px;
