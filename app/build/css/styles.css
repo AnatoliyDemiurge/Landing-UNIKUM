@@ -336,6 +336,19 @@
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 10px; }
 
+.unique__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px; }
+
+.unique__text-wrapper {
+  padding-bottom: 30px; }
+
+.unique__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px; }
+
 body, html {
   margin: 0px;
   padding: 0px;
