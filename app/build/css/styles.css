@@ -39,7 +39,8 @@
   .header-lg__transfer {
     margin-left: 49px; }
   .header-lg__social-media {
-    margin-right: 129px; }
+    margin-right: 129px;
+    padding-top: 5px; }
 
 .header-data__about-company {
   font-weight: 300;
@@ -73,6 +74,8 @@
     font-size: 14px;
     line-height: 16px;
     color: #064F7A; }
+  .mail__icon-letter {
+    padding-right: 8px; }
 
 .header__wrapper {
   display: -ms-flexbox;
@@ -164,7 +167,7 @@
   line-height: 14px;
   color: #000000; }
 
-.number-big {
+.number-big__link {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
