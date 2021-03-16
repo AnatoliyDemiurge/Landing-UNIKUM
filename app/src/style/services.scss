@@ -1,0 +1,19 @@
+.services{
+    padding-bottom:36px;
+    &__cards{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:380px 460px;
+    }
+    &__card-sm-1{
+        background:url(../img/services-sm-1.jpg) no-repeat;
+    }
+    &__card-sm-2{
+        background:url(../img/services-sm-2.jpg) no-repeat right #f5f5f5;
+        background-color:#f5f5f5;
+    }
+    &__card-lg{
+        grid-column:1 / span 2;
+        background:url(../img/services-lg.jpg) no-repeat right #f5f5f5;
+    }
+}
