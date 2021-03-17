@@ -1,0 +1,12 @@
+.footer{
+    background: #F3F3F3;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: Ubuntu;
+    &__text{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #040404;
+    }
+}

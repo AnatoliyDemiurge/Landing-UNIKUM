@@ -73,9 +73,15 @@
   .mail__link {
     font-size: 14px;
     line-height: 16px;
-    color: #064F7A; }
+    color: #064F7A;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center; }
   .mail__icon-letter {
     padding-right: 8px; }
+  .mail__icon-dog {
+    padding-right: 22px; }
 
 .header__wrapper {
   display: -ms-flexbox;
@@ -171,7 +177,14 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  color: #3B3B3B; }
+  color: #3B3B3B;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.number-big__icon-tube {
+  padding-right: 22px; }
 
 .nav {
   font-family: 'Ubuntu', sans-serif; }
@@ -355,6 +368,82 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 16px; }
+
+.footer-vertical {
+  background: #F3F3F3;
+  padding-bottom: 47px;
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom: 1px solid #FFFFFF; }
+  .footer-vertical__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .footer-vertical__info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .footer-vertical__description {
+    padding-top: 29px; }
+  .footer-vertical__nav {
+    padding-top: 15px;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer-vertical__list {
+    padding-left: 131px; }
+  .footer-vertical__link-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #064F7A; }
+  .footer-vertical__spec {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #676767; }
+  .footer-vertical__social-network {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 26px; }
+    .footer-vertical__social-network:first-child {
+      padding-top: 19px; }
+  .footer-vertical__icon {
+    padding-right: 16px; }
+  .footer-vertical__list {
+    list-style: none; }
+  .footer-vertical__item {
+    padding-top: 17px; }
+    .footer-vertical__item:first-child {
+      padding-top: 0px; }
+  .footer-vertical__link {
+    font-size: 16px;
+    line-height: 18px;
+    color: #141414; }
+  .footer-vertical__contact {
+    padding-top: 28px; }
+  .footer-vertical__number-big {
+    padding-top: 20px; }
+  .footer-vertical__mail {
+    padding-top: 18px; }
+
+.footer {
+  background: #F3F3F3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Ubuntu; }
+  .footer__text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #040404; }
 
 body, html {
   margin: 0px;

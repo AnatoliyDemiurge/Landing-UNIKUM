@@ -4,5 +4,10 @@
         font-size: 20px;
         line-height: 23px;
         color: #3B3B3B;
+        display: flex;
+        align-items: center;
+    }
+    &__icon-tube{
+        padding-right:22px;
     }
 }

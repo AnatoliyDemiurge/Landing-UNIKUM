@@ -1,0 +1,77 @@
+.footer-vertical{
+    background: #F3F3F3;
+    padding-bottom:47px;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 1px solid #FFFFFF;
+    &__wrapper{
+        display:flex;
+        justify-content: space-between;
+    }
+    &__info{
+        display:flex;
+        justify-content: space-between;
+    }
+    &__description{
+        padding-top:29px;
+    }
+    &__nav{
+        padding-top:15px;
+        display:flex;
+    }
+    &__list{
+        padding-left:131px;
+    }
+    &__link-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #064F7A;
+    }
+    &__spec{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #676767;
+        // padding-bottom:14px;
+        // border-bottom: 1px solid #064F7A;
+    }
+    &__social-network{
+        display:block;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #333333;
+        display:flex;
+        align-items:center;
+        padding-top:26px;
+        &:first-child{
+            padding-top:19px;
+        }
+    }
+    &__icon{
+        padding-right:16px;
+    }
+    &__list{
+        list-style:none;
+    }
+    &__item{
+        padding-top:17px;
+        &:first-child{
+            padding-top:0px;
+        }
+    }
+    &__link{
+        font-size: 16px;
+        line-height: 18px;
+        color: #141414;
+    }
+    &__contact{
+        padding-top:28px;
+    }
+    &__number-big{
+        padding-top:20px;
+    }
+    &__mail{
+        padding-top:18px;
+    }
+}
