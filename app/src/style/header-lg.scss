@@ -8,6 +8,9 @@
     &__info{
         display:flex;
         align-items: center;
+        @media screen and (max-width:1300px){
+            padding-left:15px;   
+        }
     }
     &__offer{
         display:flex;
@@ -36,5 +39,13 @@
     &__social-media{
         margin-right:129px;
         padding-top:5px;
+        @media screen and (max-width:1100px){
+            margin-right:60px;
+        }
+    }
+    &__mail{
+        @media screen and (max-width:1300px){
+            padding-right:15px;   
+        }
     }
 }

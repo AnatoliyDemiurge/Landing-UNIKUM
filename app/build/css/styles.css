@@ -18,6 +18,9 @@
     display: flex;
     -ms-flex-align: center;
     align-items: center; }
+    @media screen and (max-width: 1300px) {
+      .header-lg__info {
+        padding-left: 15px; } }
   .header-lg__offer {
     display: -ms-flexbox;
     display: flex;
@@ -41,6 +44,12 @@
   .header-lg__social-media {
     margin-right: 129px;
     padding-top: 5px; }
+    @media screen and (max-width: 1100px) {
+      .header-lg__social-media {
+        margin-right: 60px; } }
+  @media screen and (max-width: 1300px) {
+    .header-lg__mail {
+      padding-right: 15px; } }
 
 .header-data__about-company {
   font-weight: 300;
@@ -92,6 +101,10 @@
   justify-content: space-between;
   height: 82px; }
 
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    padding-left: 15px; } }
+
 .header__list {
   display: -ms-flexbox;
   display: flex;
@@ -112,10 +125,17 @@
     margin-left: 0px; }
   .header__item:last-child {
     margin-left: 55px; }
+    @media screen and (max-width: 1300px) {
+      .header__item:last-child {
+        margin-left: 5px; } }
   .header__item:hover {
     background: #064F7A; }
   .header__item:hover .header__link {
     color: #fff; }
+  @media screen and (max-width: 1300px) {
+    .header__item {
+      padding-left: 20px;
+      padding-right: 20px; } }
 
 .header__actions {
   padding-top: 6px;
@@ -126,6 +146,9 @@
   height: 80px;
   position: relative;
   padding-right: 10px; }
+  @media screen and (max-width: 1300px) {
+    .header__actions {
+      padding-right: 25px; } }
 
 .header__link-icon {
   display: block;
@@ -133,6 +156,9 @@
 
 .header__profile {
   margin-right: 24px; }
+  @media screen and (max-width: 1100px) {
+    .header__profile {
+      margin-right: 12px; } }
 
 .header__truck::after {
   top: 8%;
@@ -152,6 +178,9 @@
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media screen and (max-width: 1300px) {
+    .header__truck::after {
+      right: 8%; } }
 
 .header__icon-profile {
   width: 25px;
@@ -182,6 +211,14 @@
   display: flex;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 1300px) {
+    .number-big__link {
+      font-size: 18px;
+      line-height: 20px; } }
+  @media screen and (max-width: 1100px) {
+    .number-big__link {
+      font-size: 14px;
+      line-height: 17px; } }
 
 .number-big__icon-tube {
   padding-right: 22px; }
@@ -196,6 +233,10 @@
     line-height: 18px;
     text-align: center;
     color: #3B3B3B; }
+    @media screen and (max-width: 1100px) {
+      .nav__link {
+        font-size: 14px;
+        line-height: 17px; } }
   .nav__item:last-child .nav__link {
     background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
