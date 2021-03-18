@@ -8,9 +8,36 @@
    &__card{
         grid-column:span 2;
    }
+   &__content{
+        position: relative;
+   }
    &__photo{
        max-width:100%;
    }
+   &__test{
+   }
+   &__link{
+    display: block;
+    position: absolute;
+    bottom:10%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color:red;
+   }
+//    &__link{
+//         position: absolute;
+//         display: block;
+//    }
+//    &__link-blue-1{
+//         bottom:10%;
+//         left:30%
+//    }
+//    &__link-blue-2{
+//         bottom:15%;
+//         left:30%
+//    }
+//    &__link-white{
+//     }
 }
 
 // если не получится сделать background - ом,то можно попробовать сделать img - ом и position:aboslute - ом.

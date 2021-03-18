@@ -279,8 +279,18 @@
     grid-template-columns: repeat(6, 1fr); }
   .production__card {
     grid-column: span 2; }
+  .production__content {
+    position: relative; }
   .production__photo {
     max-width: 100%; }
+  .production__link {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: red; }
 
 .services {
   padding-bottom: 36px;
