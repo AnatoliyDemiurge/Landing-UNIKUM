@@ -8,5 +8,9 @@
         font-size: 12px;
         line-height: 14px;
         color: #040404;
+        @media screen and (max-width:1300px) {
+            padding-left:15px;
+            padding-right:15px;
+        }
     }
 }

@@ -3,9 +3,16 @@
         font-weight: bold;
         font-size: 20px;
         line-height: 23px;
+        @media screen and (max-width:1300px) {
+            padding-left:15px;
+        }
     }
     &__text-wrapper{
         padding-bottom:30px;
+        @media screen and (max-width:1300px) {
+            padding-left:15px;
+            padding-right:15px;
+        }
     }
     &__text{
         font-weight: 300;

@@ -50,7 +50,7 @@
         position: relative;
         padding-right:10px;
         @media screen and (max-width:1300px){
-            padding-right:25px;
+            padding-right:35px;
         }
     }
     &__link-icon{
@@ -80,7 +80,7 @@
             align-items:center;
             justify-content: center;
             @media screen and (max-width:1300px){
-               right:8%;
+               right:16%;
            }
         }
     }

@@ -1,20 +1,29 @@
 .production{
     padding-bottom:43px;
     font-family: 'Ubuntu', sans-serif;
-   &__cards{
-       display:grid;
-       grid-template-columns:repeat(6,1fr);
-   }
-   &__card{
+    &__title{
+        @media screen and (max-width:1300px) {
+            padding-left:15px;
+        }
+    }
+    &__cards{
+        display:grid;
+        grid-template-columns:repeat(6,1fr);
+        @media screen and (max-width:1300px) {
+            padding-left:15px;
+            padding-right:15px;
+        }
+    }
+    &__card{
         grid-column:span 2;
-   }
-   &__content{
+    }
+    &__content{
         position: relative;
-   }
-   &__photo{
-       max-width:100%;
-   }
-   &__link{
+    }
+    &__photo{
+        max-width:100%;
+    }
+    &__link{
         font-weight: bold;
         font-size: 24px;
         line-height: 28px;
@@ -30,25 +39,31 @@
             font-size:20px;
             line-height:22px;
         }
-   }
-   &__link-blue{
-       padding:10px 0px;
-       background: #064F7A;
-       color:white;
-   }
-   &__link-blue-1{
+    }
+    &__link-blue{
+        padding:10px 0px;
+        background: #064F7A;
+        color:white;
+    }
+    &__link-blue-1{
         bottom:2%;
-   }
-   &__link-blue-2{
+    }
+    &__link-blue-2{
         bottom:22%;
-        min-width:80px;
-   }
-   &__link-white{
+        min-width:100px;
+        @media screen and (max-width:1000px){
+            bottom:24.5%;
+        }
+    }
+    &__link-white{
         min-width:170px;
         background: #FFFFFF;
         padding:8px 0px;
         color:#064F7A;
         bottom:12.5%;
-   }
+        @media screen and (max-width:1000px){
+            bottom:14%;
+        }
+    }
 }
 

@@ -148,7 +148,7 @@
   padding-right: 10px; }
   @media screen and (max-width: 1300px) {
     .header__actions {
-      padding-right: 25px; } }
+      padding-right: 35px; } }
 
 .header__link-icon {
   display: block;
@@ -180,7 +180,7 @@
   justify-content: center; }
   @media screen and (max-width: 1300px) {
     .header__truck::after {
-      right: 8%; } }
+      right: 16%; } }
 
 .header__icon-profile {
   width: 25px;
@@ -274,9 +274,16 @@
 .production {
   padding-bottom: 43px;
   font-family: 'Ubuntu', sans-serif; }
+  @media screen and (max-width: 1300px) {
+    .production__title {
+      padding-left: 15px; } }
   .production__cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr); }
+    @media screen and (max-width: 1300px) {
+      .production__cards {
+        padding-left: 15px;
+        padding-right: 15px; } }
   .production__card {
     grid-column: span 2; }
   .production__content {
@@ -308,25 +315,38 @@
     bottom: 2%; }
   .production__link-blue-2 {
     bottom: 22%;
-    min-width: 80px; }
+    min-width: 100px; }
+    @media screen and (max-width: 1000px) {
+      .production__link-blue-2 {
+        bottom: 24.5%; } }
   .production__link-white {
     min-width: 170px;
     background: #FFFFFF;
     padding: 8px 0px;
     color: #064F7A;
     bottom: 12.5%; }
+    @media screen and (max-width: 1000px) {
+      .production__link-white {
+        bottom: 14%; } }
 
 .services {
   padding-bottom: 36px;
   font-family: 'Ubuntu', sans-serif; }
+  @media screen and (max-width: 1300px) {
+    .services__title {
+      padding-left: 15px; } }
   .services__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 380px 460px;
+    grid-template-rows: 370px 460px;
     grid-column-gap: 10px;
     grid-row-gap: 20px; }
+    @media screen and (max-width: 1300px) {
+      .services__cards {
+        padding-left: 15px;
+        padding-right: 15px; } }
   .services__card-sm-1 {
-    background: url(../img/services-sm-1.jpg) no-repeat; }
+    background: url(../img/services-sm-1.jpg) no-repeat right; }
   .services__card-sm-2 {
     background: url(../img/services-sm-2.jpg) no-repeat right #f5f5f5;
     background-color: #f5f5f5; }
@@ -385,11 +405,18 @@
 
 .gallery {
   padding-bottom: 36px; }
+  @media screen and (max-width: 1300px) {
+    .gallery__title {
+      padding-left: 15px; } }
   .gallery__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 316px;
     grid-gap: 10px; }
+    @media screen and (max-width: 1300px) {
+      .gallery__content {
+        padding-left: 15px;
+        padding-right: 15px; } }
   .gallery__photo {
     height: 100%;
     max-width: 100%; }
@@ -398,9 +425,16 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 23px; }
+  @media screen and (max-width: 1300px) {
+    .unique__title {
+      padding-left: 15px; } }
 
 .unique__text-wrapper {
   padding-bottom: 30px; }
+  @media screen and (max-width: 1300px) {
+    .unique__text-wrapper {
+      padding-left: 15px;
+      padding-right: 15px; } }
 
 .unique__text {
   font-weight: 300;
@@ -422,6 +456,9 @@
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+    @media screen and (max-width: 1300px) {
+      .footer-vertical__info {
+        padding-left: 15px; } }
   .footer-vertical__description {
     padding-top: 29px; }
   .footer-vertical__nav {
@@ -467,6 +504,9 @@
     color: #141414; }
   .footer-vertical__contact {
     padding-top: 28px; }
+    @media screen and (max-width: 1300px) {
+      .footer-vertical__contact {
+        padding-right: 15px; } }
   .footer-vertical__number-big {
     padding-top: 20px; }
   .footer-vertical__mail {
@@ -482,6 +522,10 @@
     font-size: 12px;
     line-height: 14px;
     color: #040404; }
+    @media screen and (max-width: 1300px) {
+      .footer__text {
+        padding-left: 15px;
+        padding-right: 15px; } }
 
 body, html {
   margin: 0px;
