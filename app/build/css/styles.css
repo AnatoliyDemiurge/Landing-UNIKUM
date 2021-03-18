@@ -284,13 +284,37 @@
   .production__photo {
     max-width: 100%; }
   .production__link {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
     display: block;
     position: absolute;
-    bottom: 10%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: red; }
+    color: white;
+    min-width: 284px;
+    text-align: center; }
+    @media screen and (max-width: 1300px) {
+      .production__link {
+        min-width: 244px;
+        font-size: 20px;
+        line-height: 22px; } }
+  .production__link-blue {
+    padding: 10px 0px;
+    background: #064F7A;
+    color: white; }
+  .production__link-blue-1 {
+    bottom: 2%; }
+  .production__link-blue-2 {
+    bottom: 22%;
+    min-width: 80px; }
+  .production__link-white {
+    min-width: 170px;
+    background: #FFFFFF;
+    padding: 8px 0px;
+    color: #064F7A;
+    bottom: 12.5%; }
 
 .services {
   padding-bottom: 36px;
