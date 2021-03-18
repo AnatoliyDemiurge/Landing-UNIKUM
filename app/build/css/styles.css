@@ -274,6 +274,13 @@
 .production {
   padding-bottom: 43px;
   font-family: 'Ubuntu', sans-serif; }
+  .production__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); }
+  .production__card {
+    grid-column: span 2; }
+  .production__photo {
+    max-width: 100%; }
 
 .services {
   padding-bottom: 36px;

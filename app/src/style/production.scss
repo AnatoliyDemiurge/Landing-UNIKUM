@@ -1,5 +1,16 @@
 .production{
     padding-bottom:43px;
     font-family: 'Ubuntu', sans-serif;
-   
+   &__cards{
+       display:grid;
+       grid-template-columns:repeat(6,1fr);
+   }
+   &__card{
+        grid-column:span 2;
+   }
+   &__photo{
+       max-width:100%;
+   }
 }
+
+// если не получится сделать background - ом,то можно попробовать сделать img - ом и position:aboslute - ом.
