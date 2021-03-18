@@ -1,5 +1,8 @@
 .slider-big{
     padding-bottom:36px;
+    @media screen and (max-width:1100px){
+        padding-bottom:18px;
+    }
     &__pic{
         max-width:100%;
     }
