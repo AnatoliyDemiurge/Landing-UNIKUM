@@ -10,6 +10,11 @@
             padding-left:15px;
        }
     }
+    &__nav{
+        @media screen and (max-width:1000px){
+            display: none;
+        }
+    }
     &__list{
         display:flex;
         align-items: center;
@@ -105,6 +110,8 @@
         color: #000000;
     }
     &__number-big{
-       
+        @media screen and (max-width:1000px){
+            display: none;
+        }
     }
 }

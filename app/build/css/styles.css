@@ -6,6 +6,9 @@
 
 .header-lg {
   background: #F5F5F5; }
+  @media screen and (max-width: 1000px) {
+    .header-lg {
+      display: none; } }
   .header-lg__wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -105,6 +108,10 @@
   .header__logo {
     padding-left: 15px; } }
 
+@media screen and (max-width: 1000px) {
+  .header__nav {
+    display: none; } }
+
 .header__list {
   display: -ms-flexbox;
   display: flex;
@@ -201,6 +208,10 @@
   font-size: 12px;
   line-height: 14px;
   color: #000000; }
+
+@media screen and (max-width: 1000px) {
+  .header__number-big {
+    display: none; } }
 
 .number-big__link {
   font-weight: 500;
@@ -350,12 +361,19 @@
   .services__card-sm-2 {
     background: url(../img/services-sm-2.jpg) no-repeat right #f5f5f5;
     background-color: #f5f5f5; }
+    @media screen and (max-width: 1300px) {
+      .services__card-sm-2 {
+        background-size: 60% 100%; } }
   .services__card-lg {
     grid-column: 1 / span 2;
-    background: url(../img/services-lg.jpg) no-repeat right #f5f5f5; }
+    background: url(../img/services-lg.jpg) no-repeat right #f5f5f5;
+    background-size: 100% 100%; }
   .services__name {
     padding-top: 160px;
     padding-left: 30px; }
+  @media screen and (max-width: 1300px) {
+    .services__name-sm {
+      max-width: 224px; } }
   .services__link-white {
     font-weight: 500;
     font-size: 24px;

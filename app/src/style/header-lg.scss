@@ -1,5 +1,8 @@
 .header-lg{
     background: #F5F5F5;
+    @media screen and (max-width:1000px) {
+        display:none;
+    }
     &__wrapper{
         display:flex;
         justify-content: space-between;
