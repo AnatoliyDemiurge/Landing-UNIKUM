@@ -7,7 +7,6 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="./css/styles.min.css">
-		
 	</head>
 	<body>
 		//= template/header.html
@@ -47,7 +46,15 @@
 		</div>
 		<div class="header">
 			<div class="header__wrapper wrap">
-				<a href="#" class="header__link-logo"><img src='img/svg/logo.svg' class="header__logo"></img></a>
+				<div class="header__logoAndBurger">
+					<div class="burger">
+						<span class="burger__line burger__line-1"></span>
+						<span class="burger__line burger__line-2"></span>
+						<span class="burger__line burger__line-3"></span>
+						<span class="burger__line burger__line-4"></span>
+					</div>
+					<a href="#" class="header__link-logo"><img src='img/svg/logo.svg' class="header__logo"></img></a>
+				</div>
 				<div class="header__nav nav">
 					<ul class="header__list nav__list">
 						<li class="header__item nav__item"><a href="#" class="header__link nav__link">Каталог</a></li>
@@ -59,7 +66,7 @@
 					</ul>
 				</div>
 				<a href='#' class="header__number-big number-big">
-					<a href="#" class="number-big__link">
+					<a href="#" class="number-big__link header__link-number">
 						+7 (922) 640-16-66
 					</a>
 				</a>

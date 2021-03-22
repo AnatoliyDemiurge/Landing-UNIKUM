@@ -1,4 +1,7 @@
 .header{
+    &__logoAndBurger{
+        display:flex;
+    }
     &__wrapper{
         display:flex;
         align-items: center;
@@ -110,8 +113,13 @@
         color: #000000;
     }
     &__number-big{
-        @media screen and (max-width:1000px){
-            display: none;
+        @media screen and (max-width:1000px) {
+            display:none;
+        }
+    }
+    &__link-number{
+        @media screen and (max-width:1000px) {
+            display:none;
         }
     }
 }
