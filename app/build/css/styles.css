@@ -353,15 +353,26 @@
   .services__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 370px 463px;
-    grid-column-gap: 10px;
-    grid-row-gap: 20px; }
+    grid-column-gap: 10px; }
     @media screen and (max-width: 1300px) {
       .services__cards {
         padding-left: 15px;
         padding-right: 15px; } }
-  .services__card {
+  .services__card-sm {
+    grid-column: span 1; }
+  .services__card-lg {
+    grid-column: span 2; }
+  .services__content {
+    position: relative; }
+  .services__photo {
     max-width: 100%; }
+  .services__link {
+    color: red;
+    display: block;
+    position: absolute; }
+  .services__link-basic {
+    top: 20%;
+    left: 20%; }
 
 .gallery {
   padding-bottom: 36px; }

@@ -9,16 +9,31 @@
     &__cards{
         display:grid;
         grid-template-columns:repeat(2,1fr);
-        grid-template-rows:370px 463px;
         grid-column-gap:10px;
-        grid-row-gap:20px;
         @media screen and (max-width:1300px) {
             padding-left:15px;
             padding-right:15px;
         }
     }
-    &__card{
+    &__card-sm{
+        grid-column:span 1;
+    }
+    &__card-lg{
+        grid-column:span 2;
+    }
+    &__content{
+        position: relative;
+    }
+    &__photo{
         max-width:100%;
     }
-    
+    &__link{
+        color:red;
+        display:block;
+        position: absolute;
+    }
+    &__link-basic{
+        top:20%;
+        left:20%;
+    }
 }
