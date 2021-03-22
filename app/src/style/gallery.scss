@@ -8,7 +8,7 @@
     &__content{
         display:grid;
         grid-template-columns:repeat(3,1fr);
-        grid-template-rows: 316px;
+        grid-template-rows:1fr;
         grid-gap:10px;
         @media screen and (max-width:1300px) {
             padding-left:15px;
@@ -19,7 +19,8 @@
 
     }
     &__photo{
-        height:100%;
-        max-width:100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
