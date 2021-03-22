@@ -23,6 +23,12 @@
     }
     &__list{
         padding-left:131px;
+        @media screen and (max-width:1000px) {
+            padding-left:70px;
+        }
+        @media screen and (max-width:800px) {
+            padding-left:50px;
+        }
     }
     &__link-name{
         font-weight: 500;
@@ -79,5 +85,8 @@
     }
     &__mail{
         padding-top:18px;
+    }
+    &__map{
+        max-width:100%;
     }
 }
