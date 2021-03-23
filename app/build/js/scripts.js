@@ -1,13 +1,13 @@
-
 //burger
+alert('f');
 (function () {
-    const burgerItem = document.querySelector('.burger');
-    const menu = document.querySelector('.header__nav');
-    const menuItemClose = document.querySelector('.header__close');
-    burgerItem.addEventListener('click', () => {
+    var burgerItem = document.querySelector('.burger');
+    var menu = document.querySelector('.nav');
+    var menuItemClose = document.querySelector('.nav__close');
+    burgerItem.addEventListener('click', function() {
         menu.classList.add('header__active');
     });
-    menuItemClose.addEventListener('click', () => {
+    menuItemClose.addEventListener('click', function() {
         menu.classList.remove('header__active');
     });
 }());
