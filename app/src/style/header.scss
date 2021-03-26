@@ -17,15 +17,15 @@
         font-family: 'Ubuntu', sans-serif;
         @media screen and (max-width:1000px) {
             display:block;
-            width:100%;
-            height:100%;
+            width:317px;
+            height:543px;
             position:fixed;
-            top:0px;
-            left:0px;
+            top:15%;
+            left:30%;
             background-color:#E5E5E5;
             z-index:10;
-            transform:translateX(100%);
-            transition:.3s all linear;
+            transform:translateX(315%);
+            transition:.6s all linear;
         }
     }
     &__list{
@@ -53,6 +53,9 @@
             @media screen and (max-width:1300px){
                 margin-left:5px;   
             }
+            @media screen and (max-width:1000px){
+                margin-left:0px;
+            }
         }
         &:hover{
             background: #064F7A;
@@ -73,9 +76,12 @@
             }
         }
         @media screen and (max-width:1000px) {
-            padding:0px;
             margin:0px;
             height:auto;
+            padding:12px 20px;
+            &:first-child {
+                padding-top:0px;
+            }
         }
     }
     &__link{
@@ -88,12 +94,15 @@
             font-size:14px;
             line-height:17px;   
         }
+        @media screen and(max-width:1000px){
+            font-size: 16px;
+            line-height: 18px;
+        }
     }
     &__intro{
         display:none;
         @media screen and (max-width:1000px) {
             display:block;
-            padding-top:20px;
             padding-left:20px;
         }
     }
@@ -202,7 +211,7 @@
     }
     &__line{
         @media screen and (max-width:1000px) {
-        width:38px;
+        width:16px;
         display:block;
         height:2px;
         background-color: #3B3B3B;
@@ -210,11 +219,35 @@
         top:28px;
         right:20px;
         }
-            &:first-child{
-                transform: translateY(-50%) rotate(45deg);
+        &:first-child{
+            transform: translateY(-50%) rotate(45deg);
+        }
+        &:last-child{
+            transform: translateY(-50%) rotate(-45deg);
+        }
+    }
+    &__line-top{
+        @media screen and (max-width:1000px) {
+         height:3px;
+         width:100%;
+         background-color: #DEDEDE;
+        }
+     }
+    &__line-bottom{
+       @media screen and (max-width:1000px) {
+        height:3px;
+        width:100%;
+        background-color: #DEDEDE;
+       }
+    }
+    &__data{
+        display:none;
+        @media screen and (max-width:1000px) {
+            display:block;
+            a{
+                padding:12px 20px;
+                display:block;
             }
-            &:last-child{
-                transform: translateY(-50%) rotate(-45deg);
-            }
+        }
     }
 }
