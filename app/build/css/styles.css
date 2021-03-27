@@ -72,7 +72,7 @@
   -ms-flex-align: center;
   align-items: center; }
   .geo__icon {
-    width: 11px;
+    width: 10px;
     height: 15px; }
   .geo__link-street {
     font-size: 14px;
@@ -112,6 +112,13 @@
     .number-big__link {
       font-size: 14px;
       line-height: 17px; } }
+  @media screen and (max-width: 1000px) {
+    .number-big__link {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #333333; } }
 
 .number-big__icon-tube {
   padding-right: 22px; }
@@ -143,7 +150,7 @@
       position: fixed;
       top: 15%;
       left: 30%;
-      background-color: #E5E5E5;
+      background: #FFFFFF;
       z-index: 10;
       -webkit-transform: translateX(315%);
       transform: translateX(315%);
@@ -222,7 +229,9 @@
   @media screen and (max-width: 1000px) {
     .header__intro {
       display: block;
-      padding-left: 20px; } }
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 12px; } }
 
 .header__name {
   font-weight: 500;
@@ -231,6 +240,8 @@
   color: #064F7A; }
 
 .header__spec {
+  padding-top: 5px;
+  display: block;
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
@@ -306,7 +317,7 @@
     display: none; } }
 
 @media screen and (max-width: 1000px) {
-  .header__link-number {
+  .header__link-number-big {
     display: none; } }
 
 .header__active {
@@ -348,13 +359,13 @@
 
 @media screen and (max-width: 1000px) {
   .header__line-top {
-    height: 3px;
+    height: 1px;
     width: 100%;
     background-color: #DEDEDE; } }
 
 @media screen and (max-width: 1000px) {
   .header__line-bottom {
-    height: 3px;
+    height: 1px;
     width: 100%;
     background-color: #DEDEDE; } }
 
@@ -362,10 +373,56 @@
   display: none; }
   @media screen and (max-width: 1000px) {
     .header__data {
-      display: block; }
-      .header__data a {
-        padding: 12px 20px;
-        display: block; } }
+      display: block;
+      padding: 20px 0px 27px 20px; } }
+
+@media screen and (max-width: 1000px) {
+  .header__about-company {
+    display: block;
+    padding-bottom: 12px; } }
+
+@media screen and (max-width: 1000px) {
+  .header__transfer {
+    display: block; } }
+
+.header__geo {
+  display: none;
+  font-size: 14px;
+  line-height: 16px; }
+  @media screen and (max-width: 1000px) {
+    .header__geo {
+      padding: 8px 20px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+@media screen and (max-width: 1000px) {
+  .header__icon-geo {
+    padding-right: 5px;
+    padding-left: 18px; } }
+
+.header__contact {
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .header__contact {
+      padding: 10px 14px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
+
+@media screen and (max-width: 1000px) {
+  .header__link-number {
+    padding: 12px 16px;
+    background: #ECECEC;
+    border-radius: 5px; } }
+
+@media screen and (max-width: 1000px) {
+  .header__link-mail {
+    padding: 12px 16px;
+    background: #ECECEC;
+    border-radius: 5px; } }
 
 .burger {
   height: 20px;

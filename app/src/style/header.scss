@@ -22,7 +22,7 @@
             position:fixed;
             top:15%;
             left:30%;
-            background-color:#E5E5E5;
+            background: #FFFFFF;
             z-index:10;
             transform:translateX(315%);
             transition:.6s all linear;
@@ -104,6 +104,8 @@
         @media screen and (max-width:1000px) {
             display:block;
             padding-left:20px;
+            padding-top:20px;
+            padding-bottom:12px;
         }
     }
     &__name{
@@ -113,6 +115,8 @@
         color: #064F7A;
     }
     &__spec{
+        padding-top:5px;
+        display:block;
         font-weight: 300;
         font-size: 12px;
         line-height: 14px;
@@ -185,7 +189,7 @@
             display:none;
         }
     }
-    &__link-number{
+    &__link-number-big{
         @media screen and (max-width:1000px) {
             display:none;
         }
@@ -228,14 +232,14 @@
     }
     &__line-top{
         @media screen and (max-width:1000px) {
-         height:3px;
+         height:1px;
          width:100%;
          background-color: #DEDEDE;
         }
      }
     &__line-bottom{
        @media screen and (max-width:1000px) {
-        height:3px;
+        height:1px;
         width:100%;
         background-color: #DEDEDE;
        }
@@ -244,10 +248,56 @@
         display:none;
         @media screen and (max-width:1000px) {
             display:block;
-            a{
-                padding:12px 20px;
-                display:block;
-            }
+            padding:20px 0px 27px 20px;
+        }
+    }
+    &__about-company{
+        @media screen and (max-width:1000px){
+            display:block;
+            padding-bottom:12px;
+        }
+    }
+    &__transfer{
+        @media screen and (max-width:1000px){
+            display:block;
+        }
+    }
+    &__geo{
+        display:none;
+        font-size: 14px;
+        line-height: 16px;
+        @media screen and (max-width:1000px) {
+            padding:8px 20px;
+            display:flex;
+            align-items: center;
+        }
+    }
+    &__icon-geo{
+        @media screen and (max-width:1000px) {
+            padding-right:5px;
+            padding-left:18px;   
+        }
+    }
+    &__contact{
+        display:none;
+        @media screen and (max-width:1000px) {
+            padding:10px 14px;
+            display:flex;
+            justify-content: space-around;   
+        }
+    }
+    &__link-number{
+        @media screen and (max-width:1000px) {
+            padding:12px 16px;
+            background: #ECECEC;
+            border-radius: 5px;   
+        }
+    }
+    &__link-mail{
+        @media screen and (max-width:1000px) {
+            padding:12px 16px;
+            background: #ECECEC;
+            border-radius: 5px;   
         }
     }
 }
